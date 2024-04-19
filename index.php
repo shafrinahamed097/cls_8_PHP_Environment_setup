@@ -45,6 +45,17 @@ define('SITE_NAME', 'http://ostad.app');
 echo BATCH;
 echo SITE_NAME;
 
+// printf()  output formating + output print;
+
+
+$name1="Mr.Ahamed";
+$age1 = 27;
+printf("Name: %s, Age: %d ", $name1, $age1);
+
+// sprintf() formating
+
+echo sprintf("Name = %s, age = %d", $name1, $age1);
+
 
 
 
